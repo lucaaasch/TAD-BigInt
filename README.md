@@ -17,10 +17,10 @@ Además de estas funciones principales, el código también incluye funciones au
 
 ## Uso
 
-Para usar el TAD BigInt, simplemente incluye el archivo `BigInt.cpp` en tu proyecto de C++ y utiliza las funciones proporcionadas según sea necesario.
+Para usar el TAD BigInt, simplemente incluye el archivo `BigInt.hpp` en tu proyecto de C++ y utiliza las funciones proporcionadas según sea necesario.
 
 ```cpp
-#include "BigInt.cpp"
+#include "BigInt.hpp"
 
 int main() {
     BigInt a = bigInt("12345678901234567890");
