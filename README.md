@@ -1,6 +1,6 @@
 # TAD BigInt
 
-El TAD BigInt es una implementación de enteros de tamaño arbitrario desarrollada por @lucaaasch y @msantucho1 en Mayo de 2023. Este proyecto surgió como un desafío personal cuando aún estábamos explorando los fundamentos de la programación estructurada (a la par que aprendiamos c++)
+El TAD BigInt es una implementación de enteros de tamaño arbitrario que desarrollé junto con [@msantucho1](https://github.com/msantucho1) en Mayo de 2023. Este proyecto surgió como un desafío personal cuando aún estábamos explorando los fundamentos de la programación estructurada (a la par que aprendiamos c++)
 
 ## Descripción
 
