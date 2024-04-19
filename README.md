@@ -1,15 +1,43 @@
 # TAD BigInt
 
-El TAD BigInt es una implementación de enteros de tamaño arbitrario que desarrollé junto con [@msantucho1](https://github.com/msantucho1) en Mayo de 2023. Este proyecto surgió como un desafío personal cuando aún estábamos explorando los fundamentos de la programación estructurada (a la par que aprendiamos c++)
+El TAD BigInt es una implementación de enteros de tamaño arbitrario desarrollada por @tu_usuario y [@msantucho1](https://github.com/msantucho1) en mayo de 2023. Este proyecto surgió como un desafío personal cuando aún estábamos explorando los fundamentos de la programación estructurada.
 
-## Descripción
+## Funciones Principales
 
-El TAD BigInt proporciona la capacidad de manejar enteros de tamaño arbitrario en C++, lo que permite realizar cálculos matemáticos extensos y precisos en aplicaciones informáticas. Para implementar este TAD, aprovechamos las bibliotecas de funciones que desarrollamos durante nuestro estudio de la materia de "Algoritmos y Estructuras de Datos". Estas bibliotecas están disponibles en mi repositorio de GitHub.
+El código proporciona las siguientes funciones principales:
 
-## Como usarlo
+- `BigInt bigInt(string s)`: Función para crear un BigInt a partir de una cadena.
+- `BigInt complementoBigInt(BigInt a)`: Función para calcular el complemento a 10 de un BigInt.
+- `BigInt bigIntSumar(BigInt a, BigInt b)`: Función para sumar dos BigInt.
+- `BigInt bigIntRestar(BigInt a, BigInt b)`: Función para restar dos BigInt.
+- `BigInt bigIntMultiplicar(BigInt a, BigInt b)`: Función para multiplicar dos BigInt.
+- `int cmpBigInt(BigInt a, BigInt b)`: Funcion para comprar dos BigInt
 
-Solo es necesario incluir el header en tu archivo de c++
-- #include "BigInt.hpp"
+Además de estas funciones principales, el código también incluye funciones auxiliares para manipular cadenas y realizar operaciones matemáticas específicas en BigInts.
+
+## Uso
+
+Para usar el TAD BigInt, simplemente incluye el archivo `BigInt.cpp` en tu proyecto de C++ y utiliza las funciones proporcionadas según sea necesario.
+
+```cpp
+#include "BigInt.cpp"
+
+int main() {
+    BigInt a = bigInt("12345678901234567890");
+    BigInt b = bigInt("-98765432109876543210");
+    
+    BigInt suma = bigIntSumar(a, b);
+    BigInt resta = bigIntRestar(a, b);
+    BigInt producto = bigIntMultiplicar(a, b);
+
+    return 0;
+}
+
+```
+
+## Acerca de la implementación
+
+Para implementar este TAD, aprovechamos las bibliotecas de funciones que desarrollamos durante nuestro estudio de la materia de "Algoritmos y Estructuras de Datos". Estas bibliotecas están disponibles en mi repositorio de GitHub.
 
 ## Limitaciones conocidas
 
