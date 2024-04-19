@@ -1,17 +1,17 @@
 # TAD BigInt
 
-El TAD BigInt es una implementación de enteros de tamaño arbitrario desarrollada por @tu_usuario y [@msantucho1](https://github.com/msantucho1) en mayo de 2023. Este proyecto surgió como un desafío personal cuando aún estábamos explorando los fundamentos de la programación estructurada.
+El TAD BigInt es una implementación de enteros de tamaño arbitrario que desarrollé junto a [@msantucho1](https://github.com/msantucho1) en Mayo de 2023. Este proyecto surgió como un desafío personal cuando aún estábamos explorando los fundamentos de la programación estructurada.
 
 ## Funciones Principales
 
 El código proporciona las siguientes funciones principales:
 
-- `BigInt bigInt(string s)`: Función para crear un BigInt a partir de una cadena.
-- `BigInt complementoBigInt(BigInt a)`: Función para calcular el complemento a 10 de un BigInt.
-- `BigInt bigIntSumar(BigInt a, BigInt b)`: Función para sumar dos BigInt.
-- `BigInt bigIntRestar(BigInt a, BigInt b)`: Función para restar dos BigInt.
-- `BigInt bigIntMultiplicar(BigInt a, BigInt b)`: Función para multiplicar dos BigInt.
-- `int cmpBigInt(BigInt a, BigInt b)`: Funcion para comprar dos BigInt
+- `BigInt bigInt(string s)` : Función para crear un BigInt a partir de una cadena.
+- `BigInt complementoBigInt(BigInt a)` : Función para calcular el complemento a 10 de un BigInt.
+- `BigInt bigIntSumar(BigInt a, BigInt b)` : Función para sumar dos BigInt.
+- `BigInt bigIntRestar(BigInt a, BigInt b)` : Función para restar dos BigInt.
+- `BigInt bigIntMultiplicar(BigInt a, BigInt b)` : Función para multiplicar dos BigInt.
+- `int cmpBigInt(BigInt a, BigInt b)` : Funcion para comprar dos BigInt
 
 Además de estas funciones principales, el código también incluye funciones auxiliares para manipular cadenas y realizar operaciones matemáticas específicas en BigInts.
 
